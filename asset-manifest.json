@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/food/static/css/main.277a6164.css",
+    "main.js": "/food/static/js/main.e45d464c.js",
+    "static/media/nutrition.png": "/food/static/media/nutrition.5c8ccccc744448a76096.png",
+    "static/media/breakfast1.png": "/food/static/media/breakfast1.fa34ecd8842528cf8b8f.png",
+    "static/media/breakfast3.png": "/food/static/media/breakfast3.469b4556cef7599af3e4.png",
+    "static/media/breakfast2.png": "/food/static/media/breakfast2.28fa86a0074fd206db9b.png",
+    "static/media/3.png": "/food/static/media/3.1bd2a7e5fe9d1ce6ccf1.png",
+    "static/media/1.png": "/food/static/media/1.cb0ab06a4f49b3d712d9.png",
+    "static/media/2.png": "/food/static/media/2.8396fe642e9a7f5e8500.png",
+    "static/media/slick.svg": "/food/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/food/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/food/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/food/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/food/index.html",
+    "main.277a6164.css.map": "/food/static/css/main.277a6164.css.map",
+    "main.e45d464c.js.map": "/food/static/js/main.e45d464c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277a6164.css",
+    "static/js/main.e45d464c.js"
+  ]
+}
