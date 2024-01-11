@@ -1,0 +1,125 @@
+:root{
+    --black:
+    rgba(0, 0, 0, 1);
+    --green:
+    rgba(57, 186, 57, 1);
+    --white:
+    rgba(255, 255, 255, 1);
+    --breakfast-green:
+    rgba(64, 145, 99, 1);
+    --breakfast-yellow:rgba(220, 251, 115, 1);
+    --sample-orange:
+    rgba(255, 89, 0, 1);
+    --sample-gray:rgba(219, 219, 219, 1);
+    --delivery-blue:
+    rgba(127, 159, 224, 1);
+    
+  }
+
+.about{
+    background-color: 
+    rgba(247, 247, 247, 1);
+    padding: 50px 130px;
+    margin-top: 20px;
+}
+
+.about h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: var(--black);
+}
+
+.about-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--white);
+    padding: 40px 60px;
+}
+.why{
+    width: 40%;
+}
+
+.why button{
+     width: 90%;
+     height: 50px;
+     border-radius: 60px;
+     color: var(--white);
+     background-color: var(--green);
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     border: none;
+     outline: none;
+     cursor: pointer;
+
+}
+
+.how{
+    width: 40%;
+}
+
+.how button{
+    width: 90%;
+    height: 50px;
+    border-radius: 60px;
+    cursor: pointer;
+    
+    color: var(--white);
+    background-color: var(--green);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: rgb(21, 98, 21);
+    transition: all .5s linear;
+}
+
+.about-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--black);
+    margin-top: 20px;
+}
+
+@media screen and (max-width:910px){
+        
+    .about{
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .about{
+        padding: 0 0;
+    }
+    .about h1{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .about-text{
+        flex-direction: column;
+    }   
+
+    .why{
+        width: 100%;
+    }
+
+    .how{
+        width: 100%;
+    }
+    .about-text button{
+        font-size: 12px;
+    }
+}

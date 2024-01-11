@@ -1,0 +1,321 @@
+:root{
+    --black:
+    rgba(0, 0, 0, 1);
+    --green:
+    rgba(57, 186, 57, 1);
+    --white:
+    rgba(255, 255, 255, 1);
+    --breakfast-green:
+    rgba(64, 145, 99, 1);
+    --breakfast-yellow:rgba(220, 251, 115, 1);
+    --sample-orange:
+    rgba(255, 89, 0, 1);
+    --sample-gray:rgba(219, 219, 219, 1);
+    --delivery-blue:
+    rgba(127, 159, 224, 1);
+    
+  }
+
+  .footer{
+    width: 100%;
+    padding: 0 130px 20px 130px;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    margin-top: 100px;
+  }
+
+
+  /* ready */
+
+  .ready{
+    display: flex;
+    width: 70%;
+  }
+
+  .ready-first{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+  }
+
+  .offer{
+    width: 50%;
+  }
+
+  .offer ul{
+
+  }
+
+  .offer ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+    margin-top: 10px;
+  }
+
+
+  .from{
+    width: 50%;
+  }
+
+  .from ul{
+
+  }
+
+  .from ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--sample-gray);
+    margin-top: 10px;
+  }
+
+  .from ul li:first-child{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+  }
+
+  .ready-second{
+    width: 30%;
+  }
+
+
+  .ready-second svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .ready-second svg:hover{
+    width: 40px;
+    height: 40px;
+    transition: all .5s linear;
+  }
+  /* visa */
+
+  .visa{
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  .logo{
+
+  }
+
+  .logo img{
+    width: 100px;
+    height: 65px;
+  }
+
+
+  .cards{
+    width: 100%;
+  }
+
+  .cards svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .cards svg:hover{
+    width: 40px;
+    height: 40px;
+    transition: all .5s linear;
+  }
+
+  /* main-footer */
+
+  .main-footer{
+    background-color: var(--sample-gray);
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-footer span{
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 20px;
+     color: rgba(153, 153, 153, 1);
+     margin-left: 10px;
+  }
+
+@media screen and (max-width: 1046px) {
+
+
+  .offer ul li{
+    font-size: 14px;
+    line-height: 13px;
+  }
+
+  .from ul li{
+    font-size: 14px;
+    line-height: 13px;
+
+  }
+  .from ul li:first-child{
+    font-size: 14px;
+    line-height: 13px;
+  }
+
+
+  .ready-second{
+    margin-left: 10px;
+  }
+  .ready-second svg{
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer{
+    padding: 0 20px 20px 20px;
+
+  }
+}
+
+@media screen and (max-width:730px){
+  .footer{
+    flex-direction: column;
+  }
+
+  .ready {
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.ready-first{
+  flex-direction: column;
+}
+
+.ready-second{
+  margin-top: 175px;
+}
+
+.offer{
+  width: 100%;
+}
+
+.offer ul li{
+  font-size: 30px;
+  line-height: 30px;
+}
+.from{
+  width: 100%;
+  margin-top: 50px;
+}
+.from ul li{
+  font-size: 30px;
+  line-height: 30px;
+
+}
+.from ul li:first-child{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.logo{
+  display: none;
+}
+
+.visa{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cards svg{
+  margin-left: 50px;
+}
+.cards svg:first-child{
+  margin-left: 0px;
+}
+
+.main-footer{
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0;
+  height: 100px;
+}
+
+.main-footer span{
+  margin-top: 10px;
+}
+}
+
+@media screen and (max-width:442px){
+  .footer{
+    flex-direction: column;
+  }
+
+  .ready {
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.ready-first{
+  flex-direction: column;
+  width: 60%;
+}
+
+.ready-second{
+  margin-top: 133px;
+}
+.ready-second svg{
+  width: 13px;
+  height: 17px;
+}
+.ready-second svg:hover{
+  width: 20px;
+  height: 20px;
+  transition: all .5s linear;
+}
+
+.offer{
+  width: 100%;
+}
+
+.offer ul li{
+  font-size: 17px;
+  line-height: 17px;
+}
+.from{
+  width: 100%;
+  margin-top: 50px;
+}
+.from ul li{
+  font-size: 17px;
+  line-height: 17px;
+
+}
+.from ul li:first-child{
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.logo{
+  display: none;
+}
+
+.visa{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cards svg{
+  margin-left: 50px;
+}
+.cards svg:first-child{
+  margin-left: 0px;
+}
+}

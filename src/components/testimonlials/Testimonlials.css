@@ -1,0 +1,45 @@
+
+
+.testimonlials{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.testimonlials h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: var(--black);
+}
+
+.testimonlials .divs{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.divs div{
+    border-radius: 30px;
+}
+
+
+.testimonlials iframe{
+width: 200px;
+border-radius: 30px;
+
+}
+
+@media screen and (max-width:532px){
+    .testimonlials{
+        padding: 0 20px;
+    }
+
+    .testimonlials h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,92 @@
+:root{
+    --black:
+    rgba(0, 0, 0, 1);
+    --green:
+    rgba(57, 186, 57, 1);
+    --white:
+    rgba(255, 255, 255, 1);
+    --breakfast-green:
+    rgba(64, 145, 99, 1);
+    --breakfast-yellow:rgba(220, 251, 115, 1);
+    --sample-orange:
+    rgba(255, 89, 0, 1);
+    --sample-gray:rgba(219, 219, 219, 1);
+    --delivery-blue:
+    rgba(127, 159, 224, 1);
+    
+  }
+
+
+  .nutrition{
+    width: 100%;
+    height: 578px;
+    background-image: url("../../assets//nutrition//nutrition.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin-top: 50px;
+  }
+
+  .nutrit{
+    text-align: center;
+    padding: 40px 10px;
+    border-radius: 30px;
+    width: 400px;
+    background-color: var(--white);
+  }
+
+  .nutrit h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+  }
+
+  .nutrit h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    color: var(--black);
+    margin-top: 20px;
+  }
+
+  .nutrit h1 span{
+    color: var(--green);
+  }
+
+  
+  .nutrit  .order {
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 20px 14px 24px;
+    border: none;
+    outline: none;
+    background-color: var(--green);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: var(--white);
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .header-two .order:hover {
+    background-color: rgb(84, 161, 29);
+    transition: all 0.5s linear;
+  }
+
+  @media screen and (max-width:564px){
+    .nutrition{
+        padding: 50px 0;
+
+    }
+    .nutrit{
+        width: 300px;
+    }
+    .nutrit h1{
+        font-size: 33px;
+        line-height: 35px;
+    }
+  }

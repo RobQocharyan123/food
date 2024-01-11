@@ -1,0 +1,263 @@
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --green: rgba(57, 186, 57, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+.header {
+  width: 100%;
+  padding: 0 130px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+  position: sticky;
+  background-color: var(--white);
+  top: 0;
+  z-index: 1999; 
+}
+
+/* Header - one */
+.header-one {
+  width: 15%;
+}
+
+.header-one img {
+  width: 110px;
+  height: 70px;
+}
+/* Header - two */
+
+.header-two {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.header-nav nav svg{
+  display: none;
+}
+.button-order{
+    width: 15%;
+
+}
+.header-two .order {
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px 20px 14px 24px;
+  border: none;
+  outline: none;
+  background-color: var(--green);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: var(--white);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-two .order:hover {
+  background-color: rgb(84, 161, 29);
+  transition: all 0.5s linear;
+}
+
+.img-burger{
+    display: none;
+  }
+/* Header - nav */
+
+.header-nav {
+  width: 80%;
+}
+.header-nav nav {
+}
+
+.header-nav nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav nav ul li {
+  margin-left: 5%;
+}
+
+.header-nav nav ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+}
+.header-nav nav ul li a:hover {
+  color: red;
+  transition: all 0.5s linear;
+}
+
+.header-nav nav ul li a:active {
+  color: var(--green);
+  transition: all 0.5s linear;
+}
+
+.phone {
+  display: block;
+  width: 100%;
+}
+
+.heraxos {
+  display: flex;
+  align-items: center;
+  width: 180px;
+}
+
+.phone-btn {
+  width: 16px;
+  height: 16px;
+  background-color: var(--green);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-btn img {
+  width: 6px;
+  height: 6px;
+}
+
+.phone span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.phone-number {
+  margin-left: 35% !important;
+}
+
+.phone-number a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: underline;
+  color: var(--green) !important  ;
+  float: right;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 1216px) {
+  .phone-number {
+    margin-left: 30% !important;
+  }
+}
+
+@media screen and (max-width: 1113px) {
+  .phone-number {
+    margin-left: 20% !important;
+  }
+  .button-order {
+    width: 17%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .phone-number {
+    margin-left: 20% !important;
+  }
+
+  .button-order {
+    width: 20%;
+  }
+
+  .phone span {
+    font-size: 14px;
+  }
+  .phone-number a {
+    font-size: 14px !important;
+  }
+
+  .heraxos {
+    width: 162px;
+  }
+
+  .header {
+    padding: 0 75px;
+  }
+}
+
+
+@media screen and (max-width: 872px) {
+    .header {
+      padding: 0 60px;
+    }
+  }
+
+  
+@media screen and (max-width: 800px) {
+    .header {
+      padding: 0 0px;
+    }
+  }
+
+    
+@media screen and (max-width: 684px) {
+    
+.header-two {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .button-order{
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+
+  }
+
+  .header-nav{
+    width: 50px;
+  }
+
+  .header-nav nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-nav nav ul li{
+    margin-top: 20px;
+  }
+
+  .header-nav nav{
+    display: block;
+    width: 190px;
+    position: absolute;
+    background: var(--white);
+    top: 60px;
+    right: 5px;
+    z-index: 555;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+  }
+
+  .header-nav nav svg{
+    display: block;
+    float: right;
+    width: 25px;
+    height: 25px;
+  }
+  .img-burger{
+    display: block;
+    cursor: pointer;
+  }
+
+  .img-burger img{
+    width: 30px;
+
+  }
+  .header-two{
+    justify-content: end;
+  }
+  }

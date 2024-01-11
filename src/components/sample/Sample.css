@@ -1,0 +1,201 @@
+
+:root{
+    --black:
+    rgba(0, 0, 0, 1);
+    --green:
+    rgba(57, 186, 57, 1);
+    --white:
+    rgba(255, 255, 255, 1);
+    --breakfast-green:
+    rgba(64, 145, 99, 1);
+    --breakfast-yellow:rgba(220, 251, 115, 1);
+    --sample-orange:
+    rgba(255, 89, 0, 1);
+    --sample-gray:rgba(219, 219, 219, 1);
+  }
+  
+
+
+
+
+.sample{
+    width: 100%;
+    padding: 0 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.sample h1{
+    text-align: center;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+
+}
+
+.menu{
+    display: block;
+}
+
+/* days */
+.menu .days{
+    margin-top: 10px;
+}
+
+.days button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    background-color: var(--white);
+    margin-left: 10px;
+    border: 2px solid var(--sample-gray);
+}
+
+.days button:first-child{
+    margin: 0;
+}
+.days button:hover{
+    border: 2px solid var(--sample-orange);
+    transition: all .5s linear;
+}
+
+/* meals */
+
+.meals{
+
+}
+
+.meals h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: var(--black);
+    margin-top: 10px;
+}
+
+.meals span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--sample-gray);
+    margin-left: 10px;
+}
+
+.meal{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 20px;
+   
+}
+
+.slick-slider div{
+    width: 100%;
+    background-color: 
+    rgba(247, 247, 247, 1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+
+}
+
+.meal div img{
+
+}
+
+
+.slick-slider div h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    margin-left: 10px;
+
+}
+
+.slick-slider div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(32, 31, 29, 0.5);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.carousel-root {
+    outline: none;
+    position: relative;
+}
+
+.carousel .control-dots {
+    position: absolute;
+    bottom: -20px !important;
+
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.carousel .slide img {
+    width: 20% !important;
+    vertical-align: top;
+    border: 0;
+}
+
+.carousel.carousel-slider {
+    position: initial !important;
+    margin: 0;
+    overflow: hidden;
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover {
+    border: 3px solid var(--sample-orange) !important;
+}
+
+@media screen and (max-width: 874px) {
+    .sample{
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .sample h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 444px) {
+    .sample{
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .sample h1 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    
+    .days button{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 15px;
+    }
+}
